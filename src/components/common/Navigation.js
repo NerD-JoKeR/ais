@@ -16,13 +16,19 @@ export default class Navigation extends React.Component{
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
             </button>
             <Link to="/" className="navbar-brand">AIS-React</Link>
           </div>
           <div className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-right smooth-scroll">
-              <li><Link to="/">Главная</Link></li>
-              <li><Link to="about">Формы</Link></li>
+              <li><Link to="home">Главная</Link></li>
+              <li><Link to="bank">Банк</Link></li>
+              <li><Link to="payments">Выплаты</Link></li>
+              <li><Link to="client">Клиент</Link></li>
+              <li><Link to="form">Формы</Link></li>
               <li><Link to="contact">Обратная связь</Link></li>
               <li><Link to="login">Войти</Link></li>
             </ul>

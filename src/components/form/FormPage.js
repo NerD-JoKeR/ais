@@ -1,33 +1,42 @@
 import React, {Component} from 'react';
 import {Button, ButtonToolbar} from 'react-bootstrap';
 
-export default class Forms extends Component{
+export default class FormPage extends Component{
   render(){
     return (
     <div className="container">
       <ButtonToolbar>
-        <Button>Анкета1</Button>
+        <Button bsStyle="info">Просмотр</Button>
       </ButtonToolbar>
       <ButtonToolbar>
-        <Button>Анкета2</Button>
+        <Button bsStyle="primary">"Последний индивидуальный полис"</Button>
       </ButtonToolbar>
       <ButtonToolbar>
-        <Button>Анкета3</Button>
+        <Button bsStyle="success">"Последний групповой полис"</Button>
       </ButtonToolbar>
       <ButtonToolbar>
-        <Button>Анкета4</Button>
+        <Button bsStyle="info">Уведомления и письма</Button>
       </ButtonToolbar>
       <ButtonToolbar>
-        <Button>Анкета5</Button>
+        <Button bsStyle="warning">Визирование расходов мед.отчетов</Button>
       </ButtonToolbar>
       <ButtonToolbar>
-        <Button>Анкета6</Button>
+        <Button bsStyle="danger">Ваучеры</Button>
       </ButtonToolbar>
       <ButtonToolbar>
-        <Button>Анкета7</Button>
+        <Button bsStyle="primary">Внести уведомление о получении полиса</Button>
       </ButtonToolbar>
       <ButtonToolbar>
-        <Button>Анкета8</Button>
+        <Button bsStyle="success">Зачисления на полис</Button>
+      </ButtonToolbar>
+      <ButtonToolbar>
+        <Button bsStyle="warning">Оплаты займов</Button>
+      </ButtonToolbar>
+      <ButtonToolbar>
+        <Button bsStyle="warning">Коэффициенты риска</Button>
+      </ButtonToolbar>
+      <ButtonToolbar>
+        <Button bsStyle="danger">Действия над полисом</Button>
       </ButtonToolbar>
     </div>
     )

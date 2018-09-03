@@ -26,13 +26,13 @@ export default class ContactPage extends Component{
             <tr>
               <td>1</td>
               <td>А.Рыбалов</td>
-              <td></td>
+              <td>1061</td>
               <td>a.rybalov@asia-life.kz</td>
             </tr>
             <tr>
               <td>2</td>
               <td>К.Ешпанов</td>
-              <td></td>
+              <td>1067</td>
               <td>k.yeshpanov@asia-life.kz</td>
             </tr>
             <tr>
